@@ -3,87 +3,159 @@
 
 
 /* Enter your styling here */
-/* Header Styling */
-header h1 {
-  text-align: center;
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/17/19/36/connection-3234929_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Radio Canada", sans-serif;
+}
+
+h1 {
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  text-shadow: 2px 2px 4px #888;
   font-size: 50px;
 }
 
-/* Box Styling */
-.box {
+.box-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 35px;
 }
 
-/* Row Styling */
 .row {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Button Styling */
 .btn {
-  border: 2px solid black;
-  border-radius: 10px;
   width: 75px;
   height: 75px;
-  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
   font-size: 50px;
   font-weight: 500;
-  background-color: rgba(255, 255, 255, 0.7);
-  color: #333; /* Darker text color */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+  margin: 5px;
 }
 
-/* Button Hover Styling */
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.9); /* Lighter background color */
-  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* Disabled Button Styling */
 .btn:disabled {
   color: black;
   cursor: not-allowed;
 }
 
-/* Result Container Styling */
 .result-container {
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #000;
   max-width: 200px;
-  margin: 0 auto;
-  text-align: center;
+  margin: 20px auto;
 }
 
-/* Result Styling */
-.result {
+#result {
   color: white;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  text-shadow: 1px 1px 2px #888;
   font-size: 25px;
 }
 
-/* Reset Styling */
 .reset {
   text-align: center;
 }
 
-/* Reset Button Styling */
-.reset-button {
-  border: 2px solid black;
+#resetBtn {
+  border: 2px solid #000;
   color: black;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  padding: 5px 10px;
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.reset-button:hover {
-  background-color: white;
+#resetBtn:hover {
+  background-color: black;
+  color: white;
+}
+body {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #888;
+  font-size: 50px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 75px;
+  height: 75px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 50px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.btn:disabled {
   color: black;
+  cursor: not-allowed;
+}
+
+.result-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #000;
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+#result {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px #888;
+  font-size: 25px;
+}
+
+.reset {
+  text-align: center;
+}
+
+#resetBtn {
+  border: 2px solid #000;
+  color: black;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#resetBtn:hover {
+  background-color: black;
+  color: white;
 }
